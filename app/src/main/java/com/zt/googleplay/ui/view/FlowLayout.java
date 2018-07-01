@@ -215,7 +215,7 @@ public class FlowLayout extends ViewGroup {
 						topOffset = 0;
 					}
 					// 把剩余空间平均到每个View上
-					//childWidth = childWidth + splitSpacing; 注释此句解决item宽度占满全部宽度
+					//childWidth = childWidth + splitSpacing; Zt:注释此句解决item宽度占满全部宽度
 
 					view.getLayoutParams().width = childWidth;
 					if (splitSpacing > 0) {// View的长度改变了，需要重新measure

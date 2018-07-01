@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/categroy_title"
+        android:padding="5dp"
+        tools:text="滑动"
+        android:textColor="#000"
+        android:background="#d7d4d4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/cateroy_line_one"
+            android:background="@drawable/gride_category_item_selector"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="80dp">
+            <ImageView
+                android:id="@+id/categroy_image1"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+            <TextView
+                android:id="@+id/categroy_name1"
+                tools:text="介绍"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/cateroy_line_two"
+            android:background="@drawable/gride_category_item_selector"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="80dp">
+            <ImageView
+                android:id="@+id/categroy_image2"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+            <TextView
+                android:id="@+id/categroy_name2"
+                tools:text="介绍"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/cateroy_line_three"
+            android:background="@drawable/gride_category_item_selector"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="80dp">
+            <ImageView
+                android:id="@+id/categroy_image3"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+            <TextView
+                android:id="@+id/categroy_name3"
+                tools:text="介绍"
+                android:textColor="#000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

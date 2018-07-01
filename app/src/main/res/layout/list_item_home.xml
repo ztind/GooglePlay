@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/list_home_item_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/list_home_icon"
+            android:src="@mipmap/category_app_0"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:layout_width="45dp"
+            android:layout_height="45dp" />
+        <TextView
+            android:id="@+id/list_home_appname"
+            android:text="应用名称"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/list_home_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--android:isIndicator="true"解决listview的点击截获-->
+        <RatingBar
+            android:id="@+id/list_home_starts"
+            android:layout_marginTop="5dp"
+            android:rating="2.5"
+            android:isIndicator="true"
+            android:layout_below="@+id/list_home_appname"
+            android:layout_toRightOf="@+id/list_home_icon"
+            android:layout_width="wrap_content"
+            android:progressDrawable="@drawable/customer_ratinbar"
+            android:layout_height="15dp" />
+        <TextView
+            android:id="@+id/list_home_appsize"
+            android:layout_below="@+id/list_home_starts"
+            android:text="3.70MB"
+            android:textColor="#3b3a3a"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/list_home_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@+id/list_home_framelayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/list_home_downText"
+                android:text="下载"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#303030"
+        />
+    <TextView
+        android:id="@+id/list_home_appdes"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:textColor="#3b3a3a"
+        android:text="应用介绍应用介绍应用介绍应用介绍应用介绍应用介绍应用介绍应用介绍应用介绍"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/list_home_item_selector"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <RelativeLayout
+        android:id="@+id/detail_item_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/detail_image_safe1"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/arrow_down"
+            android:layout_marginLeft="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/detail_image_safe2"
+            android:layout_toRightOf="@+id/detail_image_safe1"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/detail_image_safe3"
+            android:layout_toRightOf="@+id/detail_image_safe2"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/detail_image_safe4"
+            android:layout_toRightOf="@+id/detail_image_safe3"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/detail_image_down"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/arrow_down"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:layout_width="15dp"
+            android:layout_height="15dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/detail_textMessage_linearlayout"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/detail_image_state1"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/detail_text_message1"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:text="已结通过安全监测，可放心下载使用"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/detail_image_state2"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/detail_text_message2"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:text="已结通过安全监测，可放心下载使用"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/detail_image_state3"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/detail_text_message3"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:text="已结通过安全监测，可放心下载使用"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/detail_image_state4"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/detail_text_message4"
+                android:layout_marginLeft="5dp"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:text="已结通过安全监测，可放心下载使用"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
